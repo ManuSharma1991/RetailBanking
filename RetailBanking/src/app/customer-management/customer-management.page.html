@@ -4,10 +4,35 @@
       <ion-menu-button></ion-menu-button>
     </ion-buttons>
     <ion-title>
-      CustomerManagement
+      Customer Management
     </ion-title>
   </ion-toolbar>
 </ion-header>
 <ion-content padding>
+  <ion-tabs>
 
+    <ion-tab-bar slot="bottom">
+      <ion-tab-button tab="add-customer">
+        <ion-icon name="person-add"></ion-icon>
+        <ion-label>Add Customer</ion-label>
+      </ion-tab-button>
+  
+      <ion-tab-button tab="view-customers">
+        <ion-icon name="people"></ion-icon>
+        <ion-label>View Customers</ion-label>
+      </ion-tab-button>
+  
+      <ion-tab-button tab="update-customer">
+        <ion-icon name="refresh"></ion-icon>
+        <ion-label>Update Customer</ion-label>
+      </ion-tab-button>
+
+      <ion-tab-button tab="delete-customer">
+        <ion-icon name="trash"></ion-icon>
+        <ion-label>Delete Customer</ion-label>
+      </ion-tab-button>
+    </ion-tab-bar>
+  
+  </ion-tabs>
+  
 </ion-content>

@@ -4,6 +4,7 @@ import { FormsModule } from '@angular/forms';
 import { Routes, RouterModule } from '@angular/router';
 
 import { IonicModule } from '@ionic/angular';
+import { CustomerManagementPageRoutingModule } from './customer-management.router.module';
 
 import { CustomerManagementPage } from './customer-management.page';
 
@@ -19,7 +20,7 @@ const routes: Routes = [
     CommonModule,
     FormsModule,
     IonicModule,
-    RouterModule.forChild(routes)
+    CustomerManagementPageRoutingModule
   ],
   declarations: [CustomerManagementPage]
 })

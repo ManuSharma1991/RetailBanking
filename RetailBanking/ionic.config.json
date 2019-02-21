@@ -1,5 +1,7 @@
 {
   "name": "RetailBanking",
-  "integrations": {},
+  "integrations": {
+    "cordova": {}
+  },
   "type": "angular"
 }
